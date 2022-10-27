@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Questrial&family=Roboto&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+  background-color: #3d3231;
+}
+nav{
+  position: relative;
+  background: transparent;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.logo1{
+  position: absolute;
+  left: 0;
+  bottom: 65px;
+  margin-left: 30px;
+  padding-top: 50px;
+  height: 20px;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  color: #000000;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+/* iklan */
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding: 30px 30px;
+}
+
+.col-2{
+  min-width: 230px;
+}
+
+.col-2 img{
+  max-width: 100%;
+  padding: 10px 0px ;
+}
+
+/* About */
+
+.about img {
+  margin-top: 55px;
+  height: 350px;
+  width: 320px;
+  border-radius: 10px;
+}
+
+.about-isi {
+  margin-top: 55px;
+  margin-left: 20px;
+  width: 550px;
+}
+
+.about-isi h2 {
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-isi h5 {
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.about-isi p {
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* contact */
+
+.contact {
+  width: 100%;
+  height: 250px;
+  left: 0;
+  background: linear-gradient(to right, rgba(243, 215, 139, 0.37),rgba(113, 183, 223, 0.212));
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact p {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+/* Social Media */
+.content{
+  background-color: #12192c;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0  12px 12px 0;
+  color: #fff;
+}
+.content h2{
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: 6px;
+  opacity: 0.9;
+}
+
+.content span{
+  height: 0.5px;
+  width: 80px;
+  background: #777;
+  margin: 30px 0;
+}
+.content p{
+  padding-bottom: 15px;
+  font-weight: 300;
+  opacity: 0.7;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.7;
+  color:#ffffff
+}
+
+/* medsos */
+.medsos a {
+  font-size: 30px;
+  margin: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.medsos a:hover{
+  border-radius: 0;
+  background: none;
+}
+
+/* new product */
+.container{
+  padding-bottom: 200px ;
+  padding-top: 200px;
+  width: 100%;
+  min-height: 400px;
+  background: #4e342e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0 ;
+  position: relative;
+}
+
+ .container h2{
+  top: 100px;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  padding: 5px 10px;
+  background: #2D2424;
+  border-radius: 10px;
+  color: #ffffff; 
+  font-size: 55px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  opacity: 0.9; 
+}
+
+.card{
+  cursor: pointer;
+  position: relative;
+  background: #2D2424;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 20px;
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  min-height: 150px;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: 0.6s ease;
+}
+
+.card:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transform: translateY(-10px);
+}
+
+.container .card .content{
+  text-align: start;
+  max-height: 300px;
+  border-radius: 20px;
+}
+
+.container .card .deskrip{
+  padding: 10px 0;
+}
+
+.card .deskrip span{
+  padding: 12px 0;
+  color: rgb(143, 123, 123);
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.card .deskrip h4{
+  color: #fefefe;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.card .deskrip h5{
+  padding-top: 3px;
+  font-size: 12px;
+  color: #5c5c5c;
+}
+
+.card .cart{
+  position: absolute;
+  bottom: 25px;
+  left: 180px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  border: 1px solid #cce7d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card  p .cart:hover{
+  color: #6d4c41;
+}
+
+/* Footer */
+footer{
+  width: 100%;
+  padding: 12px 0;
+  bottom: 0;
+  left: 0;
+  background: #644e46;
+  color: black;
+}
+footer .bottom{
+  width: 100%;
+  text-align: center;
+  color: black;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a{
+  color: #eb2f06;
+}
+footer a{
+  transition: all 0.3s ease;
+}
+footer a:hover{
+  color: #eb2f06;
+}
+
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #cdcdcd;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #000000;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+section{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
